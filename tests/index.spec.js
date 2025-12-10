@@ -133,6 +133,17 @@ describe('SHMAML\n  ──────', () => {
 						]
 					});
 				});
+
+				it('list of numbers', async () => {
+					const returnedValue = parseSync('./tests/ini-files/list3.ini');
+
+					expect(returnedValue).to.deep.equal({
+						section1: {
+							arr1: [0,1,2],
+							arr2: [2,1,0]
+						}
+					});
+				});
 			});
 
 			it('parses standard ini files', async () => {
