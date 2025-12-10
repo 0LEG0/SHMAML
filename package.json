@@ -1,7 +1,8 @@
 {
     "name": "shmaml",
+    "type": "commonjs",
     "description": "Parse `.ini` files into JSON objects. Support lists.",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "license": "MIT",
     "main": "./index.js",
     "author": "Taitu Lizenbaum <taitu.dev@gmail.com>",
